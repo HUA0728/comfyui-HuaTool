@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-huatool"
+description = "HuaTool - ComfyUI 图像批量处理工具包，支持文件夹批量加载和原文件名保存"
+version = "1.0.0"
+license = {text = "MIT"}
+dependencies = ["torch>=2.0.0", "numpy>=1.24.0", "Pillow>=9.0.0"]
+
+[project.urls]
+Repository = "https://github.com/yourusername/HuaTool"
+
+[tool.comfy]
+PublisherId = "your-publisher-id"
+DisplayName = "HuaTool"
